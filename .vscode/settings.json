@@ -1,0 +1,10 @@
+{
+  "debug.toolBarLocation": "commandCenter",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "JetBrains Mono, monospace",
+  "editor.fontSize": 11,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "workbench.activityBar.orientation": "vertical",
+  "workbench.colorTheme": "Default Dark Modern"
+}

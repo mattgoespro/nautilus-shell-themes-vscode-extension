@@ -1,0 +1,451 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Nautilus PowerShell High Contrast",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "colors": {
+    "editor.background": "#000000",
+    "editor.foreground": "#FFFFFF",
+    "editor.lineHighlightBackground": "#000000",
+    "editor.selectionBackground": "#264F78",
+    "editorCursor.foreground": "#FFFFFF",
+    "editorWhitespace.foreground": "#8A8A8A"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#9CC48A"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": [
+        "string",
+        "punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#D4A890"
+      }
+    },
+    {
+      "name": "String escapes",
+      "scope": [
+        "constant.character.escape"
+      ],
+      "settings": {
+        "foreground": "#E0C890"
+      }
+    },
+    {
+      "name": "Numbers and language constants",
+      "scope": [
+        "constant.numeric",
+        "constant.language"
+      ],
+      "settings": {
+        "foreground": "#C0D4BA"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": [
+        "keyword",
+        "storage",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#8AB8E0"
+      }
+    },
+    {
+      "name": "Control keywords",
+      "scope": [
+        "keyword.control"
+      ],
+      "settings": {
+        "foreground": "#D0B0D0"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": [
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Functions and cmdlets",
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#E0E0B8"
+      }
+    },
+    {
+      "name": "Types and classes",
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "support.class",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#70C8B8"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable",
+        "variable.other",
+        "support.variable"
+      ],
+      "settings": {
+        "foreground": "#C0D8E8"
+      }
+    },
+    {
+      "name": "Parameters",
+      "scope": [
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#C0D8E8"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": [
+        "punctuation",
+        "meta.brace"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
+      "settings": {
+        "foreground": "#E08080"
+      }
+    },
+    {
+      "name": "PowerShell comments",
+      "scope": [
+        "comment.line.powershell",
+        "comment.block.powershell",
+        "punctuation.definition.comment.powershell",
+        "punctuation.definition.comment.block.begin.powershell",
+        "punctuation.definition.comment.block.end.powershell"
+      ],
+      "settings": {
+        "foreground": "#9CC48A"
+      }
+    },
+    {
+      "name": "PowerShell comment-based help",
+      "scope": [
+        "comment.documentation.embedded.powershell"
+      ],
+      "settings": {
+        "foreground": "#9CC48A"
+      }
+    },
+    {
+      "name": "PowerShell help tags",
+      "scope": [
+        "keyword.operator.documentation.powershell",
+        "constant.string.documentation.powershell"
+      ],
+      "settings": {
+        "foreground": "#C0D8E8"
+      }
+    },
+    {
+      "name": "PowerShell control keywords",
+      "scope": [
+        "keyword.control.powershell",
+        "keyword.control.using.powershell",
+        "keyword.control.requires.powershell"
+      ],
+      "settings": {
+        "foreground": "#D0B0D0"
+      }
+    },
+    {
+      "name": "PowerShell other keywords",
+      "scope": [
+        "keyword.other.powershell",
+        "keyword.other.array.begin.powershell",
+        "keyword.other.hashtable.begin.powershell",
+        "keyword.other.substatement.powershell"
+      ],
+      "settings": {
+        "foreground": "#8AB8E0"
+      }
+    },
+    {
+      "name": "PowerShell storage and types",
+      "scope": [
+        "storage.type.powershell",
+        "storage.modifier.powershell"
+      ],
+      "settings": {
+        "foreground": "#70C8B8"
+      }
+    },
+    {
+      "name": "PowerShell scope modifiers",
+      "scope": [
+        "storage.modifier.scope.powershell"
+      ],
+      "settings": {
+        "foreground": "#8AB8E0"
+      }
+    },
+    {
+      "name": "PowerShell cmdlets and functions",
+      "scope": [
+        "support.function.powershell",
+        "entity.name.function.powershell",
+        "entity.name.function.invocation.powershell"
+      ],
+      "settings": {
+        "foreground": "#E0E0B8"
+      }
+    },
+    {
+      "name": "PowerShell attributes",
+      "scope": [
+        "support.function.attribute.powershell"
+      ],
+      "settings": {
+        "foreground": "#E0E0B8"
+      }
+    },
+    {
+      "name": "PowerShell parameters",
+      "scope": [
+        "variable.parameter.powershell",
+        "variable.parameter.attribute.powershell"
+      ],
+      "settings": {
+        "foreground": "#C0D8E8"
+      }
+    },
+    {
+      "name": "PowerShell variables",
+      "scope": [
+        "variable.other.readwrite.powershell",
+        "variable.other.member.powershell",
+        "variable.other.constant.powershell"
+      ],
+      "settings": {
+        "foreground": "#C0D8E8"
+      }
+    },
+    {
+      "name": "PowerShell automatic and language variables",
+      "scope": [
+        "support.variable.automatic.powershell",
+        "variable.language.powershell"
+      ],
+      "settings": {
+        "foreground": "#80C0E0"
+      }
+    },
+    {
+      "name": "PowerShell drives",
+      "scope": [
+        "support.variable.drive.powershell"
+      ],
+      "settings": {
+        "foreground": "#70C8B8"
+      }
+    },
+    {
+      "name": "PowerShell dollar punctuator",
+      "scope": [
+        "punctuation.definition.variable.powershell"
+      ],
+      "settings": {
+        "foreground": "#A0C8D8"
+      }
+    },
+    {
+      "name": "PowerShell language constants",
+      "scope": [
+        "constant.language.powershell",
+        "support.constant.variable.powershell"
+      ],
+      "settings": {
+        "foreground": "#8AB8E0"
+      }
+    },
+    {
+      "name": "PowerShell numbers",
+      "scope": [
+        "constant.numeric.integer.powershell",
+        "constant.numeric.hex.powershell",
+        "constant.numeric.octal.powershell"
+      ],
+      "settings": {
+        "foreground": "#C0D4BA"
+      }
+    },
+    {
+      "name": "PowerShell single-quoted strings",
+      "scope": [
+        "string.quoted.single.powershell",
+        "string.quoted.single.heredoc.powershell",
+        "string.unquoted.powershell"
+      ],
+      "settings": {
+        "foreground": "#D4A890"
+      }
+    },
+    {
+      "name": "PowerShell expandable strings",
+      "scope": [
+        "string.quoted.double.powershell",
+        "string.quoted.double.heredoc.powershell"
+      ],
+      "settings": {
+        "foreground": "#E0B090"
+      }
+    },
+    {
+      "name": "PowerShell string punctuation",
+      "scope": [
+        "punctuation.definition.string.begin.powershell",
+        "punctuation.definition.string.end.powershell"
+      ],
+      "settings": {
+        "foreground": "#D4A890"
+      }
+    },
+    {
+      "name": "PowerShell escapes",
+      "scope": [
+        "constant.character.escape.powershell"
+      ],
+      "settings": {
+        "foreground": "#E0C890"
+      }
+    },
+    {
+      "name": "PowerShell invalid escapes",
+      "scope": [
+        "invalid.character.escape.powershell"
+      ],
+      "settings": {
+        "foreground": "#E08080"
+      }
+    },
+    {
+      "name": "PowerShell comparison operators",
+      "scope": [
+        "keyword.operator.comparison.powershell"
+      ],
+      "settings": {
+        "foreground": "#D0B0D0"
+      }
+    },
+    {
+      "name": "PowerShell logical operators",
+      "scope": [
+        "keyword.operator.logical.powershell"
+      ],
+      "settings": {
+        "foreground": "#D8B8D8"
+      }
+    },
+    {
+      "name": "PowerShell bitwise operators",
+      "scope": [
+        "keyword.operator.bitwise.powershell"
+      ],
+      "settings": {
+        "foreground": "#C8B8D8"
+      }
+    },
+    {
+      "name": "PowerShell range operators",
+      "scope": [
+        "keyword.operator.range.powershell"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "PowerShell redirection",
+      "scope": [
+        "keyword.operator.redirection.powershell"
+      ],
+      "settings": {
+        "foreground": "#E0C890"
+      }
+    },
+    {
+      "name": "PowerShell assignment and other operators",
+      "scope": [
+        "keyword.operator.assignment.powershell",
+        "keyword.operator.unary.powershell",
+        "keyword.operator.string-format.powershell",
+        "keyword.operator.other.powershell"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "name": "PowerShell grouping and scriptblock punctuation",
+      "scope": [
+        "punctuation.section.group.begin.powershell",
+        "punctuation.section.group.end.powershell",
+        "punctuation.section.braces.begin.powershell",
+        "punctuation.section.braces.end.powershell",
+        "punctuation.section.bracket.begin.powershell",
+        "punctuation.section.bracket.end.powershell",
+        "punctuation.definition.subexpression.powershell",
+        "punctuation.definition.substatement.powershell",
+        "punctuation.section.embedded.substatement.begin.powershell",
+        "punctuation.section.embedded.substatement.end.powershell",
+        "punctuation.terminator.statement.powershell"
+      ],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    }
+  ],
+  "semanticTokenColors": {
+    "comment": "#9CC48A",
+    "string": "#D4A890",
+    "keyword": "#D0B0D0",
+    "number": "#C0D4BA",
+    "function": "#E0E0B8",
+    "method": "#E0E0B8",
+    "variable": "#C0D8E8",
+    "parameter": "#C0D8E8",
+    "property": "#C0D8E8",
+    "type": "#70C8B8",
+    "class": "#70C8B8",
+    "operator": "#FFFFFF",
+    "namespace": "#70C8B8"
+  }
+}

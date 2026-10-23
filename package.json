@@ -1,0 +1,48 @@
+{
+  "name": "nautilus-shell-themes",
+  "displayName": "Nautilus Shell Themes",
+  "description": "Shell-themed editor and workbench color themes with rich Bash and PowerShell syntax highlighting.",
+  "version": "0.1.0",
+  "publisher": "nautilus-shell-themes",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "bash",
+    "powershell",
+    "shell"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "nautilus-bash",
+        "label": "Nautilus Bash",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nautilus-bash-color-theme.json"
+      },
+      {
+        "id": "nautilus-bash-high-contrast",
+        "label": "Nautilus Bash High Contrast",
+        "uiTheme": "hc-black",
+        "path": "./themes/nautilus-bash-hc-color-theme.json"
+      },
+      {
+        "id": "nautilus-powershell",
+        "label": "Nautilus PowerShell",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nautilus-powershell-color-theme.json"
+      },
+      {
+        "id": "nautilus-powershell-high-contrast",
+        "label": "Nautilus PowerShell High Contrast",
+        "uiTheme": "hc-black",
+        "path": "./themes/nautilus-powershell-hc-color-theme.json"
+      }
+    ]
+  }
+}

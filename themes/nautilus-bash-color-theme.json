@@ -1,0 +1,499 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Nautilus Bash",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "colors": {
+    "editor.background": "#1D1D1D",
+    "editor.foreground": "#DEDDDA"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#9A9996"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": [
+        "string",
+        "punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#C9B36A"
+      }
+    },
+    {
+      "name": "String escapes",
+      "scope": [
+        "constant.character.escape",
+        "constant.character.escape.line-continuation"
+      ],
+      "settings": {
+        "foreground": "#B89654"
+      }
+    },
+    {
+      "name": "Numbers",
+      "scope": [
+        "constant.numeric",
+        "constant.language"
+      ],
+      "settings": {
+        "foreground": "#8BB894"
+      }
+    },
+    {
+      "name": "Keywords and storage",
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "storage",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#5B8EC4"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": [
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#C67B3E"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#8AADC8"
+      }
+    },
+    {
+      "name": "Types and classes",
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "support.class",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#6A96C4"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable",
+        "variable.other",
+        "variable.parameter",
+        "support.variable"
+      ],
+      "settings": {
+        "foreground": "#A87AA8"
+      }
+    },
+    {
+      "name": "Constants and attributes",
+      "scope": [
+        "constant.other",
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#D4A87A"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": [
+        "punctuation",
+        "meta.brace"
+      ],
+      "settings": {
+        "foreground": "#C0BFBC"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
+      "settings": {
+        "foreground": "#B04A52"
+      }
+    },
+    {
+      "name": "Bash comments",
+      "scope": [
+        "comment.line.number-sign.shell",
+        "comment.block.shell",
+        "comment.line.double-slash.shell",
+        "punctuation.definition.comment.shell",
+        "punctuation.definition.comment.begin.shell",
+        "punctuation.definition.comment.end.shell",
+        "punctuation.whitespace.comment.leading.shell"
+      ],
+      "settings": {
+        "foreground": "#9A9996"
+      }
+    },
+    {
+      "name": "Bash shebang",
+      "scope": [
+        "comment.line.number-sign.shell meta.shebang.shell",
+        "punctuation.definition.comment.shebang.shell"
+      ],
+      "settings": {
+        "foreground": "#C0BFBC"
+      }
+    },
+    {
+      "name": "Bash control keywords",
+      "scope": [
+        "keyword.control.shell",
+        "keyword.control.if.shell",
+        "keyword.control.fi.shell",
+        "keyword.control.for.shell",
+        "keyword.control.while.shell",
+        "keyword.control.case.shell",
+        "keyword.control.esac.shell",
+        "keyword.control.in.shell",
+        "keyword.other.shell"
+      ],
+      "settings": {
+        "foreground": "#5B8EC4"
+      }
+    },
+    {
+      "name": "Bash storage",
+      "scope": [
+        "storage.type.alias.shell",
+        "storage.type.function.shell",
+        "storage.modifier.shell"
+      ],
+      "settings": {
+        "foreground": "#5B8EC4"
+      }
+    },
+    {
+      "name": "Bash builtins",
+      "scope": [
+        "support.function.builtin.shell"
+      ],
+      "settings": {
+        "foreground": "#6A96C4"
+      }
+    },
+    {
+      "name": "Bash commands",
+      "scope": [
+        "entity.name.command.shell",
+        "entity.name.function.call.shell"
+      ],
+      "settings": {
+        "foreground": "#6BB87A"
+      }
+    },
+    {
+      "name": "Bash function names",
+      "scope": [
+        "entity.name.function.shell"
+      ],
+      "settings": {
+        "foreground": "#8AADC8"
+      }
+    },
+    {
+      "name": "Bash options",
+      "scope": [
+        "constant.other.option.shell",
+        "constant.other.option.dash.shell"
+      ],
+      "settings": {
+        "foreground": "#D4A87A"
+      }
+    },
+    {
+      "name": "Bash unquoted arguments",
+      "scope": [
+        "string.unquoted.argument.shell",
+        "string.unquoted.shell"
+      ],
+      "settings": {
+        "foreground": "#C0BFBC"
+      }
+    },
+    {
+      "name": "Bash strings",
+      "scope": [
+        "string.quoted.single.shell",
+        "string.quoted.double.shell",
+        "string.quoted.single.dollar.shell",
+        "string.unquoted.herestring.shell",
+        "punctuation.definition.string.begin.shell",
+        "punctuation.definition.string.end.shell",
+        "punctuation.definition.string.shell"
+      ],
+      "settings": {
+        "foreground": "#C9B36A"
+      }
+    },
+    {
+      "name": "Bash interpolated strings",
+      "scope": [
+        "string.interpolated.backtick.shell",
+        "string.interpolated.process-substitution.shell"
+      ],
+      "settings": {
+        "foreground": "#C9B36A"
+      }
+    },
+    {
+      "name": "Bash escapes",
+      "scope": [
+        "constant.character.escape.shell",
+        "constant.character.escape.ansi-c.shell",
+        "constant.character.escape.octal.shell",
+        "constant.character.escape.hex.shell",
+        "constant.character.escape.control-char.shell",
+        "constant.character.escape.line-continuation.shell"
+      ],
+      "settings": {
+        "foreground": "#B89654"
+      }
+    },
+    {
+      "name": "Bash numbers",
+      "scope": [
+        "constant.numeric.shell",
+        "constant.numeric.integer.shell",
+        "constant.numeric.hex.shell",
+        "constant.numeric.octal.shell",
+        "constant.numeric.decimal.shell",
+        "constant.numeric.other.shell",
+        "constant.numeric.version.shell"
+      ],
+      "settings": {
+        "foreground": "#8BB894"
+      }
+    },
+    {
+      "name": "Bash language constants",
+      "scope": [
+        "constant.language.shell"
+      ],
+      "settings": {
+        "foreground": "#B89654"
+      }
+    },
+    {
+      "name": "Bash normal variables",
+      "scope": [
+        "variable.other.normal.shell",
+        "variable.other.assignment.shell",
+        "variable.other.assignment.array.shell",
+        "variable.other.for.shell",
+        "variable.other.loop.shell"
+      ],
+      "settings": {
+        "foreground": "#A87AA8"
+      }
+    },
+    {
+      "name": "Bash special variables",
+      "scope": [
+        "variable.language.special.shell",
+        "variable.language.special.wildcard.shell",
+        "variable.language.special.quantifier.star.shell",
+        "variable.language.special.quantifier.plus.shell",
+        "variable.language.special.quantifier.question.shell",
+        "variable.language.special.at.shell"
+      ],
+      "settings": {
+        "foreground": "#B89654"
+      }
+    },
+    {
+      "name": "Bash positional parameters",
+      "scope": [
+        "variable.parameter.positional.shell",
+        "variable.parameter.positional.all.shell"
+      ],
+      "settings": {
+        "foreground": "#C49AC8"
+      }
+    },
+    {
+      "name": "Bash variable punctuation",
+      "scope": [
+        "punctuation.definition.variable.shell",
+        "punctuation.section.bracket.curly.variable.begin.shell",
+        "punctuation.section.bracket.curly.variable.end.shell"
+      ],
+      "settings": {
+        "foreground": "#B898C0"
+      }
+    },
+    {
+      "name": "Bash expansions and interpolation punctuation",
+      "scope": [
+        "keyword.operator.expansion.shell",
+        "punctuation.definition.subshell.single.shell",
+        "punctuation.definition.evaluation.backticks.shell",
+        "punctuation.section.arithmetic.double.shell",
+        "punctuation.section.arithmetic.single.shell"
+      ],
+      "settings": {
+        "foreground": "#C67B3E"
+      }
+    },
+    {
+      "name": "Bash pipes",
+      "scope": [
+        "keyword.operator.pipe.shell"
+      ],
+      "settings": {
+        "foreground": "#C67B3E"
+      }
+    },
+    {
+      "name": "Bash logical operators",
+      "scope": [
+        "keyword.operator.logical.shell",
+        "keyword.operator.logical.regex.shell",
+        "punctuation.separator.statement.and.shell",
+        "punctuation.separator.statement.or.shell"
+      ],
+      "settings": {
+        "foreground": "#C07040"
+      }
+    },
+    {
+      "name": "Bash assignment operators",
+      "scope": [
+        "keyword.operator.assignment.shell",
+        "keyword.operator.assignment.compound.shell",
+        "punctuation.definition.assignment.shell"
+      ],
+      "settings": {
+        "foreground": "#C67B3E"
+      }
+    },
+    {
+      "name": "Bash arithmetic operators",
+      "scope": [
+        "keyword.operator.arithmetic.shell"
+      ],
+      "settings": {
+        "foreground": "#C07040"
+      }
+    },
+    {
+      "name": "Bash redirects",
+      "scope": [
+        "keyword.operator.redirect.shell"
+      ],
+      "settings": {
+        "foreground": "#C67B3E"
+      }
+    },
+    {
+      "name": "Bash redirect stdout",
+      "scope": [
+        "keyword.operator.redirect.stdout.shell"
+      ],
+      "settings": {
+        "foreground": "#6BB87A"
+      }
+    },
+    {
+      "name": "Bash redirect stderr",
+      "scope": [
+        "keyword.operator.redirect.stderr.shell"
+      ],
+      "settings": {
+        "foreground": "#C85A5A"
+      }
+    },
+    {
+      "name": "Bash heredoc and herestring",
+      "scope": [
+        "keyword.operator.heredoc.shell",
+        "keyword.operator.herestring.shell",
+        "punctuation.definition.string.heredoc.quote.shell",
+        "punctuation.definition.string.heredoc.delimiter.shell"
+      ],
+      "settings": {
+        "foreground": "#B89654"
+      }
+    },
+    {
+      "name": "Bash globs and extglob",
+      "scope": [
+        "keyword.operator.glob.shell",
+        "keyword.operator.extglob.shell",
+        "keyword.operator.tilde.shell",
+        "punctuation.definition.extglob.shell"
+      ],
+      "settings": {
+        "foreground": "#D4A87A"
+      }
+    },
+    {
+      "name": "Bash case patterns",
+      "scope": [
+        "keyword.operator.pattern.case.shell",
+        "keyword.operator.pattern.case.default.shell",
+        "string.unquoted.pattern.shell",
+        "string.regexp.unquoted.shell",
+        "string.regexp.character-class.shell"
+      ],
+      "settings": {
+        "foreground": "#D4A87A"
+      }
+    },
+    {
+      "name": "Bash statement punctuation",
+      "scope": [
+        "punctuation.terminator.statement.semicolon.shell",
+        "punctuation.terminator.statement.case.shell",
+        "punctuation.separator.statement.background.shell",
+        "punctuation.definition.group.shell",
+        "punctuation.section.function.definition.shell",
+        "punctuation.definition.arguments.shell",
+        "punctuation.definition.logical-expression.shell",
+        "punctuation.section.parenthese.shell",
+        "punctuation.section.array.shell",
+        "punctuation.definition.array.shell",
+        "punctuation.definition.array.access.shell",
+        "punctuation.definition.bracket.named-array.shell"
+      ],
+      "settings": {
+        "foreground": "#C0BFBC"
+      }
+    }
+  ],
+  "semanticTokenColors": {
+    "comment": "#9A9996",
+    "string": "#C9B36A",
+    "keyword": "#5B8EC4",
+    "number": "#8BB894",
+    "function": "#8AADC8",
+    "variable": "#A87AA8",
+    "parameter": "#C49AC8",
+    "operator": "#C67B3E",
+    "type": "#6A96C4"
+  }
+}
